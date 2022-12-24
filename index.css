@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+
+.error-blank{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#blank1{
+    color: red;
+    display: none;
+    font-size: 1vw;
+    margin-top: -1vw;
+}
+#blank2,#blank3,#blank4{
+    color: red;
+    display: none;
+    font-size: 0.8vw;
+    margin-top: -1vw;
+}
+#eNumber{
+    margin-top: -1vw;
+    display: none;
+    color: red;
+    font-size: 1vw;
+}
+input::placeholder{
+    font-family: 'Space Grotesk';
+    font-size: 15px;
+    text-indent: 1rem;
+}
+.text-form{
+    position: relative;
+    color:white;
+    font-size: 2vw;
+    z-index: 99999;
+}
+
+
+.form-number{
+    position: relative;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    z-index: 9999;
+}
+.form-number{
+    position: relative;
+}
+
+.form-name{
+    margin-right: 2vw;
+    
+}
+
+#Name{
+    border:"";
+}
+#Number{
+    border: "";
+}
+#yy{
+    border: "";
+}
+#MM{
+    border: "";
+}
+#cvc{
+    border: "";
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.wrap {
+    margin-right: 20vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.group{
+    display: flex;
+    position: relative;
+    z-index: 9999999;
+    padding: 0;
+    margin: 0;
+}
+@media (min-width:600px){
+    body{
+        font-family: 'Space Grotesk';
+        color: hsl(278, 68%, 11%);
+        background-image: url('images/bg-main-desktop.png');
+        background-repeat: no-repeat;
+        background-size: 30vw 80vw;
+        overflow: hidden;
+        
+    }
+    .complete{
+        position: relative;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 10vw;
+        bottom: 2vw;
+    }
+    h1{
+        font-size: 2.5vw;
+    }
+    h2{
+        font-size: 2vw;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contain{
+        padding: 0;
+    }
+    .form-name{
+        margin-right: 12vw;
+    }
+    main{
+        margin-top: -7vw;
+    }
+    body{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .card1{
+        position: relative;
+        width: 28vw;
+        bottom: -3vw;
+        right: 2vw;
+    }
+    .card2{
+        position: relative;
+        width: 28vw;
+        top: -4vw;
+        right: 2vw;
+    
+    }
+    button{
+        color:white;
+        background-color: hsl(278, 68%, 11%);
+        border: none;
+        border-radius: 4px;
+        width: 30vw;
+        height: 3vw;
+        margin-top: 1vw;
+    }
+    .block{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        width: 30vw;
+        height: 3vw;
+        border-radius: 5px;
+        border: solid 0.1px gray ;
+    }
+
+    .block input{
+        width: 6vw;
+        margin-right: 1rem;
+    }
+    .block .input3{
+        
+        width: 14vw;
+    }
+
+    form{
+        height: 20rem;
+        font-size: 1.5vw;
+        margin-left: -12vw;
+        display: flex;
+    }
+    .block input{
+        
+        margin-top: 1vw;
+    }
+
+    form input{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    form .text{
+    margin-bottom: 0.2vw;
+    }
+    .text-form{
+        position: relative;
+        bottom: 23vw;
+    }
+    .form-name{
+        position: relative;
+        bottom: 12vw;
+        z-index: 9999;
+    }
+    .form-number{
+        position: relative;
+        bottom: 12vw;
+    }
+
+    .cvc{
+        position: relative;
+        bottom: 5.5vw;
+        left: 26.5vw;
+        z-index: 9999;
+    }
+
+    .top{
+        position: relative;
+        bottom: 25.5vw;
+        z-index: 99999999;
+    }
+    .wrap{
+        margin-top: 30vw;
+        margin-left: 10vw;
+    }
+    .card1{
+        position: relative;
+        margin-bottom: 0vw;
+        z-index: 20;
+        box-shadow: -39px 6px 22px 1px rgba(0,0,0,0.88);
+
+    }
+
+    .card2{
+        margin-top: -4vw;
+        z-index: 20;
+        position: relative;
+        box-shadow: -39px 6px 22px 1px rgba(0,0,0,0.88);
+
+    }
+
+    .group{
+        bottom: 15vw;
+        left: 19vw;
+    }
+    #blank2{
+        margin-right: 2vw;
+    }
+    #blank3{
+        margin-right: 2.5vw;
+    }
+}
+@media (max-width:600px){
+    
+    .card1{
+        width: 80vw;
+        position: relative;
+        bottom: 60vw;
+        left: 8vw;
+        z-index: 12;
+        
+    }
+    .card2{
+        width: 80vw;
+        position: relative;
+        bottom: 79.5vw;
+        z-index: 20;
+        
+    }
+    .top{
+        z-index: 9999;
+        width: 15vw;
+        left: 10vw;
+        position: relative;
+        top: 40vw;
+        z-index: 99999999;
+
+    }
+    body{
+        width: 100%;
+        height: fit;
+        padding: 0;
+        margin: 0;
+        background-image: url("images/bg-main-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100vw 60vw;
+        overflow: hidden;
+        font-family: 'Space Grotesk';
+        color: hsl(278, 68%, 11%);
+    }
+    
+    .complete{
+        display: none;
+    }
+    
+    .block{
+        display: flex;
+    }
+    
+    .block input{
+        width: 16vw;
+        margin-right: 1rem;
+    }
+    input{
+        width: 78vw;
+        height: 10vw;
+        border-radius: 5px;
+        border: solid 0.1px gray ;
+    }
+    .text{
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    button{
+        color:white;
+        background-color: hsl(278, 68%, 11%);
+        border: none;
+        border-radius: 4px;
+        width: 80vw;
+        height: 10vw;
+    }
+    
+    form{
+        margin-top: -75vw;
+    }
+    .block{
+        margin-bottom: 1rem;
+    }
+    .block .input3{
+        
+        width: 32vw;
+    }
+    
+    .contain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1{
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+    }
+
+    form{
+        
+        width: 80vw;
+    }
+    .complete{
+        position: relative;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 10vw;
+        bottom: 2vw;
+    }
+    h1{
+        font-size: 2.5vw;
+    }
+    h2{
+        font-size: 2vw;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -7vw;
+    }
+
+    .contain{
+        padding: 0;
+    }
+    .form-name{
+        margin-right: 12vw;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+
+    }
+
+    .card1{
+        position: relative;
+        bottom: -2vw;
+        left: 12vw;
+    }
+    .card2{
+        position: relative;
+        bottom: 17vw;
+        left: 5vw;
+    
+    }
+    form{
+        position: relative;
+        top: 40vw;
+        
+    }
+    .text-form{
+        font-size: 5vw;
+    }
+    #fNumber{
+        font-size: 5vw;
+        position: relative;
+        bottom: 35vw;
+        left: 9vw;
+    }
+    #fName{
+        position: relative;
+        bottom: 35vw;
+        z-index: 999;
+        left: 9vw;
+    }
+    .group{
+        position: relative;
+        bottom: 42vw;
+        left: 65vw;
+    }
+    #fcvc{
+        position: relative;
+        z-index: 999;
+        bottom: 92vw;
+        left:75vw;
+    }
+
+    .complete{
+        display: none;
+        left: 0.5vw;
+        bottom: 29vw;
+    }
+    h1{
+        font-size: 6vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    #blank1{
+    color: red;
+    display: none;
+    font-size: 4vw;
+    margin-top: -1vw;
+}
+#blank2,#blank3,#blank4{
+    color: red;
+    display: none;
+    font-size: 2.3vw;
+}
+#eNumber{
+    margin-top: -1vw;
+    display: none;
+    color: red;
+    font-size: 4vw;
+}
+#blank2{
+    margin-right: 8vw;
+}
+#blank3{
+    margin-right: 8vw;
+}
+}
+
